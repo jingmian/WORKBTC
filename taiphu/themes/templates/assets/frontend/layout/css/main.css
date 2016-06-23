@@ -1,0 +1,20 @@
+/*Section Main css*/
+@import url("/themes/templates/assets/global/plugins/bootstrap/css/bootstrap.min.css");
+@import url("/themes/templates/assets/global/plugins/font-awesome/css/font-awesome.min.css");
+@import url("style.css");
+@import url("style-responsive.css");
+@import url("custom.css");
+@import url("col.css");
+/*Section Component*/
+@import url("/themes/templates/assets/frontend/pages/css/style-layer-slider.css");
+@import url("animate.css");
+@import url("perfect-scrollbar.css");
+/*start zoom*/
+@import url("etalage.css");
+/*Section Component*/
+@import url("/themes/templates/assets/global/css/components.css");
+@import url("/themes/templates/assets/global/plugins/fancybox/source/jquery.fancybox.css");
+@import url("/themes/templates/assets/global/plugins/fancybox/source/helpers/jquery.fancybox-thumbs.css");
+@import url("/themes/templates/assets/global/plugins/carousel-owl-carousel/owl-carousel/owl.carousel.css");
+@import url("/themes/templates/assets/global/plugins/slider-layer-slider/css/layerslider.css");
+

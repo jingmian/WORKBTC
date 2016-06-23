@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'RobotoCondensed-Regular';
+    src: url(fonts/RobotoCondensed-Regular.ttf);
+    font-style: normal
+}
+@font-face {
+    font-family: 'RobotoCondensed-Bold';
+    src: url(fonts/RobotoCondensed-Bold.ttf);
+}
+@font-face {
+    font-family: 'RobotoCondensed-Light';
+    src: url(fonts/RobotoCondensed-Light.ttf);
+}
+
+.title-pre-footer h4{
+    font-family: 'RobotoCondensed-Regular' !important;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.title-pre-footer .border-bottom:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -8px;
+    height: 2px;
+    background: #e5e5e5;
+    z-index: 3;
+    /*    max-width: 168px;
+        min-width: 182px;*/
+}
+
+.title-pre-footer .span_1_of_4{
+    position: relative;
+}
+
+/*footer*/
+
+.footer h2{
+    font-family: 'RobotoCondensed-Bold';
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer ul.menu-footer li a{
+    font-family: Arial;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer ul.menu-footer li{
+    padding: 5px 0px;
+}
+
+.border-bottom-full{
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+
+.pre-header{
+    height: 3px;
+    background: #fff;
+    width: 100%;
+}
+
+.hotline {
+    position: absolute;
+    top: 11px;
+    bottom: 0;
+    right: 307px;
+    margin: auto;
+}
+
+.search {
+    position: absolute;
+    top: 7px;
+    bottom: 0;
+    right: 75px;
+    margin: auto;
+}
+
+
+.hotline{
+    font-family: 'RobotoCondensed-Regular';
+    font-size: 18px;
+    color: #fff;
+}
+
+.hotline span{
+    font-family: 'RobotoCondensed-Regular';
+    font-size: 16px;
+    color: #8d8d8d;
+}
+
+.search input{
+    font-family: Arial;
+    font-size: 12px;
+    color: #8d8d8d;
+    background: none;
+    border-bottom: 1px solid #fff;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    padding: 10px 10px 0px 10px;
+}
+
+.fa-search{
+    font-size: 20px;
+    color: #fff;
+}
+
+.search button{
+    border: none !important;
+    position: absolute;
+    top: 4px;
+    right: -30px;
+}
+
+.title-detail{
+    color: #333;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    width: 100%;
+    border-bottom: 3px solid #eb9316;
+    margin: 10px 0px;
+}
+
+
+.oneNews span{
+    font-family: 'RobotoCondensed-Light';
+    font-size: 16px;
+    color: #fff !important;
+}
+
+.oneNews ul a{
+    font-family: 'RobotoCondensed-Light';
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}

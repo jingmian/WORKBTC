@@ -1,0 +1,335 @@
+@media screen and (max-width: 1220px) {
+    .pagewrap { width: 1024px;}
+    .bannerMain, .homeBan { margin-bottom: 15px;}
+    .banner {
+        width: 100%;
+        height: auto;
+        padding-bottom: 22.26%;
+    }
+    .itemBan { width: 33.3333%;}
+    .homeBan { margin: 0 15px 15px 15px; display: block; width: auto;}
+    .top .left a { margin: 0 0 0 15px;}
+    .top .right { margin-right: 15px;}
+    .logo img { display: none;}
+    .logo {
+        width: 224px;
+        height: 58px;
+        left: 15px;
+        background: url(../img/logo-m.png) no-repeat left center;
+    }
+    .formSearch, .menuMain { right: 15px;}
+    .menu > li > a, .menu > li > span { padding: 0 10px; font-size: 14px;}
+    /**/
+    .colLeft, .colRight { width: 220px;}
+    .colCent { width: 100%;}
+    /*.colCent { width: 544px; margin-left: 20px;}*/
+    .menuLeft { padding: 15px 15px 5px 15px;}
+    .menuLeft > li > a { font-size: 13px; margin-bottom: 5px;}
+    .menuLeft > li > ul { margin-bottom: 10px;}
+    .menuLeft > li > ul > li > a {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        padding: 0 10px;
+    }
+    .boxCC > ul > a { font-size: 13px;}
+    .leftBox, .rightBox { margin-bottom: 15px;}
+    .rightBox { padding: 17px 15px 10px 15px;}
+    .rightTit { font-size: 14px;}
+    .titBox .tit { font-size: 25px; padding: 8px 0 11px 0;}
+    /*.onePro { width: 172px;}*/
+    .onePro > a { padding: 10px 7px 12px 7px;}
+    /**/
+    .homeNewsMain { margin: 0 15px 30px 15px;}
+    .oneNews > .thumb {width: 100%; height: 75px;}
+    /*    .oneNews > .thumb { width: 180px; height: 120px;}*/
+    /*.oneNews > ul { width: calc(100% - 195px); padding-top: 10px;}*/
+    .oneNews > ul {width: 100%; padding-top: 10px;}
+    .oneNews ul a { font-size: 16px;}
+    /**/
+    .footer { padding: 20px 15px; overflow: hidden;}
+    .fooLeft { width: 316px;}
+    .fooRight { width: 670px; margin-right: -15px;}
+    .fooRight .fooInfo { width: calc(50% - 20px); margin: 0px 11px 20px 0px;}
+    .fooRight .fooLink > a { margin: 0px 1px 5px 0px; width: calc(25% - 10px); font-size: 13px;}
+    .bannerNav.bannerL { left: 15px; margin-left: 0;}
+    .bannerNav.bannerR { right: 15px; margin-right: 0;}
+    .pageNav { margin-left: 15px;}
+    /**/
+    .showText > h1 { font-size: 23px; line-height: 27px;}
+    .showText > h2 { font-size: 21px; line-height: 25px;}
+    .showText > h3 { font-size: 19px; line-height: 23px;}
+    .showText > h4 { font-size: 17px; line-height: 21px;}
+    .showText > h5 { font-size: 15px; line-height: 19px;}
+    .showText > h6 { font-size: 13px; line-height: 17px;}
+    .titBox .tit.nocap { font-size: 20px; font-weight: 400; padding: 13px 0;}
+    /**/
+    .viewRight { width: 100%;}
+    .showcart table .total { width: 34.5%;}
+    .showcart .formBox li a { font-size: 13px; padding: 8px 10px;}
+    .newsTit > a, .newsTit > span { font-size: 25px;}
+    .menu > li a, .menu > li > ul, .menu > li a:after {
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+    .backTop { width: 30px; height: 30px; background-size: 100% auto;}
+}
+@media screen and (max-width: 1023px) {
+    .pagewrap { width: 768px;}
+    .logo img { display: block;}
+    .logo { width: auto; height: 73px; background: none;}
+    /**/
+    .menu {
+        display: none;
+    }
+
+    .hotline{
+        display: none;
+    }
+
+    .search{
+        display: none;
+    }
+
+    .colCent, .colRight {
+        float: none;
+        width: auto;
+        margin: 0 15px 15px 15px;
+    }
+    .onePro { width: 100%}
+    /*.onePro { width: calc(33.33% - 15px); margin: 0 14px 15px 0;}*/
+    .proRight .onePro { width: calc(33.33% - 10px); float: left;}
+    .proRight .onePro:nth-child(2) { margin-left: 15px;}
+    .proRight .onePro:last-child { float: right;}
+    .boxCC,.boxKM,.boxBC, .colLeft, .fooLink, .fooLine + .fooLeft, .fooLine:nth-last-of-type(2) { display: none;}
+    .fooLine { margin-bottom: 15px;}
+    .fooLeft, .fooRight { width: 100%; text-align: center;}
+    .footer * { color: #999;}
+    .fooRight .fooInfo { width: 100%; height: auto; margin: auto;}
+    .fooTabs { display: block;}
+    .fooInfo { padding-bottom: 15px; }
+    /**/
+    .homeNews .oneNews > .thumb { width: 120px; height: 80px;}
+    .homeNews .oneNews > ul { width: calc(100% - 135px); padding-top: 10px;}
+    .homeNews .oneNews ul a { font-size: 16px;}
+    .homeNews .oneNews p { display: none;}
+    .onePro > ul:after, .oneNews > .thumb:after { background-image: none;}
+    /*menuMobile*/
+    .menuHide { display: block;}
+    #menuLink { width: 300px;}
+    .hideButton { display: block;}
+    .search-mobile{
+        display: block;
+    }
+
+    .hideButton li {
+        font-size: 16px;
+        text-transform: uppercase;
+        line-height: 32px;
+        cursor: pointer;
+        color: #333;
+        float: left;
+        margin-left: 15px;
+    }
+    .hideButton li .fa {
+        font-size: 18px;
+        margin-right: 2px;
+        color: #555;
+    }
+    .hideButton a {
+        display: block;
+        float: left;
+        color: #fff;
+        font-size: 22px;
+        width: 32px;
+        line-height: 32px;
+        text-align: center;
+        margin-left: 10px;
+        background: #888;
+    }
+    #menuMobile {
+        position: relative;
+        display: block;
+        width: 100%;
+        float: none;
+        z-index: 20;
+    }
+    .md-modal h4 {
+        display: table;
+        color: #eee;
+        font-size: 18px;
+        cursor: pointer;
+        line-height: 34px;
+        text-transform: uppercase;
+        padding: 12px 0 0 12px;
+    }
+    .md-modal h4 * { display: block; font-size: inherit; color: inherit;}
+    .md-modal .md-content { background: #222;}
+    #menuMobile ul { margin: 0;}
+    #menuMobile { margin: 0 12px; width: auto;}
+    #menuMobile ul ul { margin-top: 0; display: none;}
+    #menuMobile ul { width: 100%; height: auto; overflow: hidden;}
+    #menuMobile ul li { position: relative;}
+    #menuMobile ul li a, #menuMobile ul h3 {
+        display: block;
+        color: #ddd;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 0px 15px;
+        background: rgba(0,0,0,.25);
+        margin-bottom: 1px;
+        line-height: 34px;
+        cursor: pointer;
+        overflow: hidden;
+        text-align:left;
+        white-space: nowrap;
+    }
+    #menuMobile ul ul li a { background-color: rgba(0,0,0,.2); padding-left: 25px; text-transform: none;}
+    #menuMobile ul ul li a:active, #menuMobile ul ul h3 { background: rgba(0,0,0,.2);}
+    #menuMobile h3 { text-transform: uppercase;}
+    #menuMobile h3.active, #menuMobile h3:active, #menuMobile li:active a {background: rgba(0,0,0,.2);}
+    #menuMobile ul ul h3.active, #menuMobile ul ul ul li a, #menuMobile ul ul ul h3 { background: rgba(0,0,0,.2);}
+    #menuMobile ul ul h3 { padding-left: 25px;}
+    #menuMobile ul ul ul li a { padding-left: 45px; text-transform: capitalize; line-height: 30px; background: rgba(0,0,0,.3);}
+    #menuMobile ul ul h3.active { margin-bottom: 0; background: rgba(0,0,0,.3);}
+    .md-modal #menuMobile {
+        position: absolute;
+        top: 55px;
+        left: 0;
+        right: 0;
+        bottom: 10px;
+        overflow: auto !important;
+    }
+    /**/
+    .showcart table .total { width: 36.4%;}
+    .viewRight { width: calc(100% - 400px);}
+    .itemBan ul { left: 15px; right: 15px; bottom: 15px;}
+    .itemBan h3 { font-size: 14px; line-height: 18px;}
+    .itemBan p, .itemBan p * { font-size: 12px;}
+    .itemBan, .itemBan h3, .itemBan ul, .itemBan * {
+        -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+    .titBox .tit { font-size: 22px;}
+    .titBox .tit:after {
+        /*min-width: 235px;*/
+    }
+}
+@media screen and (max-width: 767px) {
+    .pagewrap { width: auto;}
+    .header { margin-bottom: 15px;}
+    .bannerMain, .top .left, .boxBC, .boxKM { display: none;}
+    .top { padding: 6px 0;}
+    .top .right, .footer > .left, .footer > .right {
+        float: none;
+        display: table;
+        margin: auto;
+        text-align: center;
+    }
+    .pageNav { padding: 0 0 10px 0;}
+    .footer { padding: 15px;}
+    .footer * { font-size: 12px;}
+    /**/
+    .logo img { display: none;}
+    .logo {
+        width: 224px;
+        height: 58px;
+        left: 15px;
+        background: url(../img/logo-m.png) no-repeat left center;
+    }
+    /**/
+    .homeNews .oneNews > .thumb { width: 90px; height: 60px;}
+    .homeNews .oneNews > ul { width: calc(100% - 105px); padding-top: 10px;}
+    .homeNews .oneNews ul a { font-size: 14px;}
+    .viewLeft { width: 200px;}
+    .viewRight { width: calc(100% - 215px);}
+    .backTop { display: none !important;}
+}
+@media screen and (max-width: 570px) {
+    /*table cart*/
+    .tables table, 
+    .tables thead, 
+    .tables tbody, 
+    .tables th, 
+    .tables td, 
+    .tables tr { 
+        display: block; 
+    }
+    .showcart table .controls span, .showcart table .total span { display: none;}
+    .tables thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .tables tr { border: 1px solid #ccc; }
+    .tables td { 
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: calc(100% - 160px); 
+        white-space: normal;
+        text-align:left;
+    }
+    .tables td.controls { padding-left: 100px; padding-top: 0;}
+    .tables td:before { 
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 40%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+    }
+    .tables td:before { content: attr(data-title);}
+    .showcart table input { display: block; margin: 0;}
+    .showcart table a.zoom { display: table; margin: 0;}
+    .showcart table .price, .showcart table .total { text-align: left;}
+    /**/
+    .logo { left: 0; right: 0; bottom: auto; top: 15px; margin: auto;}
+    .header > .pagewrap { height: 135px;}
+    .formSearch {
+        bottom: 6px;
+        top: auto;
+        z-index: 20;
+    }
+    /*.formSearch { bottom: 15px; top: auto; z-index: 20;}*/
+    .formSearch input { width: 120px; height: 28px;}
+    .formSearch input:focus { width: 200px; box-shadow: 0 0 10px rgba(0,0,0,.1);}
+    .formSearch a { line-height: 23px;}
+    .menuMain { right: 120px; left: 0;}
+    .hideButton li { background: #F0F0F0; line-height: 28px; padding: 0 7px; border-radius: 3px;-webkit-border-radius: 3px;}
+    .hideButton li, .hideButton li .fa { font-size: 14px;}
+}
+@media screen and (max-width: 500px) {
+    .homeNews .oneNews > .thumb, .oneNews > .thumb { width: 150px; height: 100px;}
+    .homeNews .oneNews > ul, .oneNews > ul { width: calc(100% - 165px); padding-top: 8px;}
+    .homeNews .oneNews ul a, .oneNews ul a { font-size: 14px;}
+    .homeNews .oneNews p { display: block; font-size: 12px; line-height: 16px;}
+    .onePro { width: 100%;}
+    /*.onePro { width: calc(49.95% - 15px);}*/
+}
+@media screen and (max-width: 400px) {
+    .homeNews .oneNews > .thumb, .oneNews > .thumb { width: 90px; height: 60px;}
+    .homeNews .oneNews > ul, .oneNews > ul { width: calc(100% - 105px); padding-top: 10px;}
+    .homeNews .oneNews ul a, .oneNews ul a { font-size: 14px;}
+    .homeNews .oneNews p, .oneNews p { display: none;}
+    .header > .pagewrap { height: 180px;}
+    .menuMain { right: 15px; left: 15px;}
+    .formSearch { bottom: 60px; left: 15px;}
+    .formSearch input, .formSearch input:focus { width: 100%; box-shadow: none;}
+    .hideButton li { margin: 0;}
+    .hideButton li:nth-child(2) { float: right;}
+    .viewLeft, .viewRight { width: 100%;}
+    .otherNews a { width: 100%; margin: 0 0 5px 0;}
+    .formBox > .left, .formBox > .right { width: 100%;}
+    .formBox textarea { height: 60px;}
+    .fooTabs { margin-left: -15px; margin-right: -15px }
+    .fooTabs > li { margin: 0 -2px;}
+    .fooTabs > li > a { padding: 0 3px;}
+    .fooTabs > li > a.selected { color: #ffc800;}
+}
